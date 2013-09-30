@@ -20,7 +20,7 @@ Tektronix_DMM_4050_DBD += lvDCOM.dbd devIocStats.dbd
 
 # Add all the support libraries needed by this IOC
 #Tektronix_DMM_4050_LIBS += xxx
-Tektronix_DMM_4050_LIBS += lvDCOMSupport asyn autosave devIocStats
+Tektronix_DMM_4050_LIBS += lvDCOM asyn autosave devIocStats
 Tektronix_DMM_4050_SYS_LIBS_WIN32 += msxml2
 
 # Tektronix_DMM_4050_registerRecordDeviceDriver.cpp derives from Tektronix_DMM_4050.dbd
